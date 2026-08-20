@@ -1,5 +1,5 @@
 import cv2
-faceCascade = cv2.CascadeClassifier('faceDetect.xml')
+faceCascade = cv2.CascadeClassifier('f:/Code/python/opencvproject/faceDetect.xml')
 
 cap = cv2.VideoCapture(0)#open computer camera #'0' is camera number
 

@@ -1,7 +1,7 @@
 import cv2
-faceCascade = cv2.CascadeClassifier('faceDetect.xml')
+faceCascade = cv2.CascadeClassifier('f:/Code/python/opencvproject/faceDetect.xml')
 
-img = cv2.imread('lenna.jpg')
+img = cv2.imread('f:/Code/python/opencvproject/lenna.jpg')
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 faceRect = faceCascade.detectMultiScale(gray, 1.1, 3)
 print(len(faceRect))

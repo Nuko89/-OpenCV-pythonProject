@@ -4,7 +4,7 @@ import numpy as np
 kernel = np.ones((3, 3), np.uint8)
 kernel1 = np.ones((3, 3), np.uint8)
 
-img = cv2.imread('doro.jpg')
+img = cv2.imread('f:/Code/python/opencvproject/doro.jpg')
 img = cv2.resize(img, (0, 0), fx = 0.5, fy = 0.5)
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import random
 
-img = cv2.imread('doro.jpg')
+img = cv2.imread('f:/Code/python/opencvproject/doro.jpg')
 #print(img.shape)
 #B G R
 

@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('image.png')
+img = cv2.imread('f:/Code/python/opencvproject/image.png')
 imgContour = img.copy()
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 Canny = cv2.Canny(gray, 100, 200)
